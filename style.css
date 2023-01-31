@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+}
+
+.container {
+    width: 70rem;
+    height: 41.5rem;
+    padding: 12px 3px 0 5px;
+    /* padding-top: 20px;
+    padding-left: 10px; */
+    background: rgb(235, 235, 235);
+    margin-left: 10rem;
+}
+
+.secmode {
+    border-radius: 10px;
+    background-color: white;
+    width: 69.5rem;
+    height: 15rem;
+    padding: 13px 5px 0 40px;
+}
+
+p {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.btn-sec {
+    display: flex;
+}
+
+.btn-wpa {
+    background-image: linear-gradient(white, rgb(194, 191, 191));
+    display: flex;
+    justify-content: space-between;
+    width: 63.5rem;
+    height: 3.2rem;
+    border-radius: 7px 0 0 7px;
+    border-right: 0 solid grey;
+    border: 3px solid rgb(194, 191, 191);
+    font-size: larger;
+}
+
+.btn-txt {
+    margin: 10px;
+    color: rgb(65, 62, 62);
+}
+
+.btn-wpa2 {
+    width: 2rem;
+    background-color: rgb(194, 191, 191);
+    ;
+    margin-left: -5px;
+    border-left: 0 solid;
+    border-radius: 0 7px 7px 0;
+    border: 3px solid rgb(194, 191, 191);
+    border-left: none;
+}
+
+p {
+    color: rgb(85, 81, 81);
+}
+
+.btn-wifi {
+    background-color: white;
+    width: 65rem;
+    height: 3.2rem;
+    border-radius: 7px;
+    border: 2.8px solid rgb(194, 191, 191);
+    border-top: 7px solid rgb(148, 146, 146);
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass {
+    margin-top: 1.7rem;
+
+}
+
+.par {
+    margin-left: 35px;
+}
+
+.ssid {
+    margin-top: 40px;
+    color: rgb(85, 81, 81);
+}
+
+.ssid-white {
+    border-radius: 10px;
+    background-color: white;
+    width: 69.5rem;
+    height: 8rem;
+    padding: 25px 3px 0px 42px;
+
+}
+
+.mul{
+    margin-bottom: 20px;
+}
+
+
+small {
+    text-transform: capitalize;
+    font-size: 28px;
+    color: rgb(65, 62, 62);
+    position: relative; bottom: 10px;
+    padding-left: 2px;
+    padding-right: 6px;
+}
+
+.wifi-sched {
+    margin-top: 40px;
+    color: rgb(85, 81, 81);
+}
+
+.sched-white {
+    border-radius: 10px;
+    background-color: white;
+    width: 69.5rem;
+    height: 5rem;
+    padding: 34px 3px 0px 42px;
+}
+
+.btn-end {
+    margin-left: 52rem;
+    margin-top: 22px;
+}
+
+.btn-ok {
+    height: 3rem;
+    width: 6.5rem;
+    background-color: #5ccf19;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+
+.btn-cancel {
+    margin-left: 30px;
+    height: 3rem;
+    width: 6.5rem;
+    background-color: rgb(216, 211, 211);
+    border: 2.8px solid grey;
+    border-radius: 7px;
+}
+
