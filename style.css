@@ -134,12 +134,21 @@ small {
 .btn-ok {
     height: 3rem;
     width: 6.5rem;
-    background-color: #5ccf19;
+    background-color: #47b10a;
     border: none;
     border-radius: 7px;
     color: white;
     font-size: large;
-    font-weight: 400;
+    font-weight: 500;
+    transition:  0.6s ease-in-out  ;
+}
+
+.btn-ok:hover {
+    border: 2px solid white;
+    background: #1968cf;
+    font-weight: 800;
+    height: 3rem;
+    width: 6.5rem;
 }
 
 .btn-cancel {
@@ -149,5 +158,14 @@ small {
     background-color: rgb(216, 211, 211);
     border: 2.8px solid grey;
     border-radius: 7px;
+    transition:  0.6s ease-in-out  ;
+}
+
+.btn-cancel:hover {
+    border: 2px solid rgb(31, 24, 43);
+    background: #e10707;
+    font-weight: 800;
+    font-size: 20px;
+    color: white
 }
 
